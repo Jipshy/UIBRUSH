@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800,800i&display=swap');
+body{
+    font-family:  'Open Sans', sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+/*header part start*/
+header{
+    background: url('img/top_bg.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pad-70{
+    padding: 70px;
+}
+.logo{
+    font-size: 40px;
+
+}
+li a{
+    text-transform: uppercase;
+    color: #fff;
+}
+/*header part end*/
+/*banner part start*/
+.text{
+   margin: 0 auto;
+   padding-top: 150px;
+   padding-left: 150px;
+   text-align: center;
+}
+.button-text{
+    text-align: center;
+   
+}
+.btn-text{
+    background: #39c9da;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+/*banner part end*/
+/*about part start*/
+.about-text{
+    font-weight: 400;
+}
+/*about part end*/
+/*protfolio part start*/
+.protfolio-wrapper{
+
+    background-color: #F4F4F4;
+}
+.project-text{
+    font-weight: 600;
+    font-size: 16px;
+}
+.overlay{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.port-item:hover .overlay{
+    height: 100%;
+}
+
+.btn-readmore{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    transition: .3s;
+}
+
+.port-item:hover .btn-readmore{
+    visibility: visible;
+}
+
+/*protfolio part end*/
+/*services part start*/
+.box1{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+}
+.box2{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+}
+.box3{
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+}
+/*services part end*/
+/*contact part start*/
+.contact-wrapper{
+    background-color: #F4F4F4;
+}
+.submit-button{
+    text-align: right;
+}
+.btn-submit{
+    background: #39c9da;
+    color: #fff;
+}
+
+/*contact part end*/
+/*footer part start*/
+.footer-wrapper{
+    background: #39c9da;
+    padding: 20px;
+    color: #fff;
+}
+/*footer part end*/
+
